@@ -1,0 +1,73 @@
+/* --------------------------------- */
+/* Basic Tweaks */
+/* --------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #999;
+    text-rendering: optimizeLegibility;
+}
+
+html,body *{
+    font-family: "Lato", Arial, sans-serif ;
+    font-size: 20px;
+    font-weight: 300 !important;
+}
+
+/* --------------------------------- */
+/* HEADER */
+/* --------------------------------- */
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.699),rgba(0, 0, 0, 0.699)), url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.logo {
+    height: 100px !important;
+    height: auto;
+    margin-left: 20px;
+}
+
+
+/* --------------------------------- */
+/* Navigation Links */
+/* --------------------------------- */
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.nav.navbar-nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav.navbar-nav.navbar-left li a:link,
+.nav.navbar-nav.navbar-left li a:visited{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    
+}
+
+.nav.navbar-nav.navbar-left li a:hover,
+.nav.navbar-nav.navbar-left li a:active {
+    background: transparent;
+    border-bottom: 2px solid #cf6d17;
+    
+}
+
+nav.navbar {
+    padding: 10px;
+}
