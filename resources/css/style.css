@@ -18,6 +18,8 @@ html,body *{
     font-family: "Lato", Arial, sans-serif ;
     font-size: 18px;
     font-weight: 300 ;
+    border-radius: 0 !important;
+
 }
 
 /* --------------------------------- */
@@ -43,7 +45,8 @@ a.navbar-brand {
     font-family: 'Permanent Marker', cursive;
 }
 
-.navbar-default .navbar-brand {
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover {
     color: #2980b9 ;
 }
 
@@ -97,7 +100,8 @@ nav.navbar {
     background:#fff;
     font-weight: 400 ;
     box-shadow: -3px 3px 1px #2980b9;
-    
+    padding: 12px 15px;
+    margin: 5px 5px;
     
 }
 
@@ -108,6 +112,8 @@ nav.navbar {
     font-size: 90%;
     background: #f1c40f;
     font-weight: 400 ;  
+    padding: 12px 15px;
+    margin: 5px 5px;
     
 }
 
@@ -123,10 +129,20 @@ nav.navbar {
     color: #fff !important;
 }
 
-.input-group {
-    width: 300px;
+.jumbotron p{
+    font-size: 23px;
 }
 
-.form-group button{
-    margin-left: 5px;
+.input-group {
+    width: 400px;
+}
+
+.form-group button,
+.form-group button:hover{
+    margin-left: 10px;
+    background: #f1c40f;
+    font-weight: 400 ; 
+    border: none;
+    padding: 7px 12px;
+    box-shadow: 0 0 5px #f1c40f, 0 0 5px #f1c40f;
 }
