@@ -16,8 +16,8 @@ html {
 
 html,body *{
     font-family: "Lato", Arial, sans-serif ;
-    font-size: 20px;
-    font-weight: 300 !important;
+    font-size: 18px;
+    font-weight: 300 ;
 }
 
 /* --------------------------------- */
@@ -36,9 +36,20 @@ header {
     margin-left: 20px;
 }
 
+a.navbar-brand {
+    color: #2980b9;
+    text-transform: uppercase;
+    font-size: 120%;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+nav.navbar {
+    padding: 10px;
+}
 
 /* --------------------------------- */
-/* Navigation Links */
+/* Navigation Links : LEFT ONES*/
 /* --------------------------------- */
 
 .main-nav li {
@@ -64,10 +75,32 @@ header {
 .nav.navbar-nav.navbar-left li a:hover,
 .nav.navbar-nav.navbar-left li a:active {
     background: transparent;
-    border-bottom: 2px solid #cf6d17;
+    border-bottom: 2px solid #2980b9;
     
 }
 
-nav.navbar {
-    padding: 10px;
+/* --------------------------------- */
+/* Navigation Links: RIGHT ONES */
+/* --------------------------------- */
+
+.nav.navbar-nav.navbar-right li#login a:link,
+.nav.navbar-nav.navbar-right li#login a:visited{
+    color: #2980b9;
+    text-decoration: none;
+    font-size: 90%;
+    background:#fff;
+    font-weight: 400 ;
+    box-shadow: -3px 3px 1px #2980b9;
+    
+    
+}
+
+.nav.navbar-nav.navbar-right li#gad a:link,
+.nav.navbar-nav.navbar-right li#gad a:visited{
+    color: #fff;
+    text-decoration: none;
+    font-size: 90%;
+    background: #f1c40f;
+    font-weight: 400 ;  
+    
 }
